@@ -1,1 +1,22 @@
-<p>recipes works!</p>
+
+<div class="recipes-page">
+    <div>
+        <h5>Welcome to Our Recipes Collection!</h5>
+        <p>Discover a variety of easy and delicious recipes you can try at home. Whether you're a beginner or an expert, our step-by-step guides make cooking simple and fun. Explore, cook, and enjoy new flavors every day!</p>
+    </div>
+    <div class="recipe-card">
+        <div  *ngFor="let data of recipeList">
+            <div class="card me-4" style="width: 18rem;">
+                <div class="image-container">
+                    <img [src]="data.image" class="card-img-top" alt="Recipe Image">
+                </div>
+            <div class="card-body">
+                <h5 class="card-title">{{data.name}}</h5>
+                <p class="card-text">{{data.shot_discription}}</p>
+                <a routerLink="/recipe-details" class="btn btn-primary">View Recipe</a>
+            </div>
+        </div>
+        </div>
+        
+    </div>
+</div>

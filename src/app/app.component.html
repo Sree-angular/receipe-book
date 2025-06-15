@@ -2,16 +2,15 @@
   <div class="header">
     <div> <h3 class="title">Recipe Book </h3></div>
     <div class="options">
-       <h5 class="me-5 mt-1"><a routerLink="/home"  routerLinkActive="active"><i class="fa-solid fa-house"></i>Home</a></h5>
+       <h5 class="me-5 mt-1"><a routerLink="/home"  routerLinkActive="active">Home</a></h5>
       <h5 class="me-5 mt-1"><a routerLink="/recipes"  routerLinkActive="active">Recipes</a></h5>
-      <h5 class="me-5 mt-1"><a routerLink="/add"  routerLinkActive="active">Add Recipe</a></h5>
+      <h5 class="me-5 mt-1"><a routerLink="/recipes/add"  routerLinkActive="active">Add Recipe</a></h5>
       <h5 class="me-5 mt-1"><a routerLink="/about"  routerLinkActive="active">About</a></h5>
 
     </div>
   </div>
-    <!-- Hello DIvya -->
+
      <div class="main-content">
-        <!-- <app-home></app-home> -->
         <router-outlet></router-outlet>
      </div>
   <div class="footer">

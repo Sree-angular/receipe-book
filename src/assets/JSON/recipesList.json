@@ -1,0 +1,92 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Butter Chicken",
+      "image": "butter_chicken.png",
+      "category": "Non-Vegetarian",
+      "prepTime": "15 mins",
+      "cookTime": "30 mins",
+      "shot_discription":"A rich, creamy North Indian curry with tender chicken pieces in a buttery tomato sauce, finished with cream and aromatic spices.",
+      "ingredients": [
+        "500g chicken",
+        "2 tbsp butter",
+        "1 cup tomato puree",
+        "1/2 cup cream",
+        "Spices (garam masala, chili powder, turmeric)"
+      ],
+      "steps": [
+        "Marinate chicken with spices and yogurt.",
+        "Cook in butter, add tomato puree and simmer.",
+        "Add cream and simmer until done."
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Masala Dosa",
+      "image": "masala_dosa.png",
+      "category": "Vegetarian",
+      "prepTime": "20 mins",
+      "cookTime": "10 mins",
+      "shot_discription":"A crispy South Indian rice crepe stuffed with a flavorful spiced potato filling, served hot with coconut chutney and tangy sambar.",
+
+      "ingredients": [
+        "Dosa batter",
+        "2 boiled potatoes",
+        "1 onion",
+        "Mustard seeds",
+        "Curry leaves",
+        "Turmeric"
+      ],
+      "steps": [
+        "Prepare the potato masala with spices.",
+        "Spread dosa batter on hot pan.",
+        "Place masala filling, fold and serve with chutney."
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Paneer Butter Masala",
+      "image": "paneer_butter_masala.png",
+      "category": "Vegetarian",
+      "prepTime": "10 mins",
+      "cookTime": "25 mins",
+      "shot_discription":"Soft paneer cubes cooked in a smooth, buttery tomato gravy, enriched with cream and gently spiced for a mild, comforting flavor.",
+
+      "ingredients": [
+        "200g paneer",
+        "2 tbsp butter",
+        "1 cup tomato puree",
+        "1/2 cup cream",
+        "Spices (garam masala, chili powder)"
+      ],
+      "steps": [
+        "Saute paneer cubes lightly.",
+        "Cook tomato puree with spices in butter.",
+        "Add cream and paneer, simmer until blended."
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hyderabadi Biryani",
+      "image": "hyderabadi_biryani.png",
+      "category": "Non-Vegetarian",
+      "prepTime": "30 mins",
+      "cookTime": "45 mins",
+      "shot_discription":"A fragrant rice dish layered with marinated chicken, fried onions, and saffron, cooked on low heat for perfect dum-style biryani.",
+
+      "ingredients": [
+        "500g basmati rice",
+        "500g marinated chicken",
+        "Fried onions",
+        "Yogurt",
+        "Spices (biryani masala, saffron)"
+      ],
+      "steps": [
+        "Layer rice and marinated chicken in a pot.",
+        "Add fried onions, saffron milk, and seal the pot.",
+        "Cook on low heat for 45 mins (dum style)."
+      ]
+    }
+  ]
+}

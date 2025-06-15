@@ -7,6 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { AddRecipeComponent } from './add-recipe/add-recipe.component';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCardModule } from '@angular/material/card';
+import { DetailRecipeComponent } from './detail-recipe/detail-recipe.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { AddRecipeComponent } from './add-recipe/add-recipe.component';
     HomeComponent,
     AboutComponent,
     RecipesComponent,
-    AddRecipeComponent
+    AddRecipeComponent,
+    DetailRecipeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule ,
+    MatCardModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

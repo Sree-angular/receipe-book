@@ -2,8 +2,9 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 
 body{
-    font-family:'Playfair Display' , serif;
-    // font-family: 'Lato', sans-serif;
+    // font-family:'Playfair Display' , serif;
+ 
+    font-family: 'Lato', sans-serif;
     .btn-primary{
         background-color: #8b7420a6;
         color: white;
@@ -20,4 +21,9 @@ body{
     .btn-primary:active{
          box-shadow: none;
     }
+    h5{
+        color: #8b7420a6;
+    }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
